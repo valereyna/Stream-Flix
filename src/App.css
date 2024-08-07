@@ -130,7 +130,7 @@ h1 {
 
 .movie div:nth-of-type(3) {
   z-index: 2;
-  background-color: #f7cac9;
+  background-color: #c5b9cd;
   padding: 16px 24px 24px 24px;
   position: absolute;
   bottom: 0;
@@ -202,5 +202,20 @@ h1 {
   .movie {
     width: "100%";
     margin: 1rem;
+  }
+
+  .load-more {
+    background: #f7cac9;
+    color: black;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 2rem;
+    transition: all 0.3s ease;
+  }
+  
+  .load-more:hover {
+    background: #dec2cb;
   }
 }
